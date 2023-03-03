@@ -10,7 +10,7 @@ if [ -d "$rustvm_TARGET" ]; then
 fi
 
 # Cloning to $rustvm_TARGET
-git clone git://github.com/coldestheart/rustvm.git $rustvm_TARGET
+git clone git@github.com:coldestheart/rustvm.git $rustvm_TARGET
 
 echo
 
